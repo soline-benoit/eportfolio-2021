@@ -1,9 +1,12 @@
 <template>
-  <Tutorial/>
+  <Header/>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import Header from '~/components/header/Header.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: { Header }
+})
 </script>

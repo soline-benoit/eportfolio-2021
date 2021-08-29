@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@font-face {
+  font-family: "All Round Gothic";
+  src: url('./all_round_gothic_w01_bold.woff2') format('woff2'),
+  url('./all_round_gothic_w01_bold.woff') format('woff'),
+  url('./all_round_gothic_w01_bold.ttf') format('truetype');
+}
