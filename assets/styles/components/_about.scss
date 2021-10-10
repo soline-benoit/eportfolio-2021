@@ -1,0 +1,11 @@
+#about-wave-tertiary {
+  width: 100%;
+  height: 355px;
+  background-image:
+    url('~assets/images/about/wave-tertiary.svg'),
+    url('~assets/images/about/wave-primary.svg'),
+    url('~assets/images/about/wave-secondary.svg');
+  background-size: 100% 200px, 100% 550px, 100% 420px;
+  background-position: 0 0, -380px -45px, 0 0;
+  background-repeat: no-repeat;
+}

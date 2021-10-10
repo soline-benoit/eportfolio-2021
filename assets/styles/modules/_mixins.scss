@@ -1,0 +1,23 @@
+@mixin highlight($color) {
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    background-color: var($color);
+    width: 105%;
+    height: 30%;
+    position: absolute;
+    z-index: -1;
+    bottom: 20%;
+    left: -2.5%;
+  }
+}
+
+.hl-primary {
+  @include highlight(--color-primary);
+}
+
+.hl-secondary {
+  @include highlight(--color-secondary);
+}

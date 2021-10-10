@@ -1,0 +1,4 @@
+#footer-social-networks li {
+  &:not(:first-child) { margin-left: .6rem; }
+  &:not(:last-child) { margin-right: .6rem; }
+}

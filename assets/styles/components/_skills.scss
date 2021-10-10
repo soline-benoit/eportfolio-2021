@@ -1,0 +1,31 @@
+.skill-blob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: var(--all-round-gothic);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  margin: 0 3rem;
+}
+
+.skill-blob strong {
+  font-size: 7.5rem;
+  line-height: 1;
+}
+
+.skill-blob p {
+  font-size: 1rem;
+}
+
+.skill-blob:nth-of-type(1) {
+  background-image: url('~assets/images/skills/blob-1.svg');
+}
+.skill-blob:nth-of-type(2) {
+  background-image: url('~assets/images/skills/blob-2.svg');
+}
+.skill-blob:nth-of-type(3) {
+  background-image: url('~assets/images/skills/blob-3.svg');
+}

@@ -6,3 +6,29 @@
   url('./all_round_gothic_w01_bold.woff') format('woff'),
   url('./all_round_gothic_w01_bold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: "Socials";
+  src: url('./socials.eot');
+  src: url('./socials.eot?#iefix') format('embedded-opentype'),
+  url('./socials.woff') format('woff'),
+  url('./socials.ttf') format('truetype'),
+  url('./socials.svg#socials') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*='icon-socials-']::before{
+  font-family: "Socials";
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+.icon-socials-github::before{
+  content:'\0041';}
+.icon-socials-instagram::before{content:'\0042';}
+.icon-socials-linkedin::before{content:'\0043';}
+.icon-socials-twitter::before{content:'\0044';}

@@ -1,0 +1,48 @@
+#cursor {
+  pointer-events: none;
+  user-select: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 5555;
+  backface-visibility: hidden;
+  transition: opacity .6s ease;
+
+  circle {
+    fill: #426956;
+    opacity: .3;
+  }
+
+  &.hover {
+    mix-blend-mode: lighten;
+
+    circle {
+      fill: var(--color-secondary);
+      opacity: 1;
+    }
+  }
+
+  &.hover.instagram circle {
+    fill: url(#cursor-instagram-gradient);
+  }
+
+  &.hover.linkedin circle {
+    fill: #2867b2;
+  }
+
+  &.hover.twitter circle {
+    fill: #1da1f2;
+  }
+
+  &.hover.github {
+    mix-blend-mode: difference;
+
+    circle {
+      fill: #fff;
+    }
+  }
+
+  &.hover.view-project {
+    fill: url(#cursor-view-project);
+  }
+}
